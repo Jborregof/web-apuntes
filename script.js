@@ -67,6 +67,9 @@ switch (k) {
 }
 
 1 > 2 ? console.log("True") : console.log("False");
+1 > 2
+  ? console.log("True")
+  : (console.log("False"), console.log("Still False"));
 
 var car = new Object();
 car.make = "Ford";
