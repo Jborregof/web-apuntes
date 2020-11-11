@@ -102,3 +102,11 @@ console.log(objeto);
 //EL OBJETO ES CONSTANTE PERO SUS ATRIBUTOS NO
 objeto.atributo1 = "se ha cambiado";
 console.log(objeto);
+
+//Constructor del objeto
+function User(name, country, money, premiumAccount) {
+  (this.name = name),
+    (this.country = country),
+    (this.money = money),
+    (this.premiumAccount = premiumAccount);
+}
