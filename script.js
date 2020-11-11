@@ -110,3 +110,7 @@ function User(name, country, money, premiumAccount) {
     (this.money = money),
     (this.premiumAccount = premiumAccount);
 }
+
+function imprimir() {
+  console.log(arguments);
+}
