@@ -111,6 +111,7 @@ function User(name, country, money, premiumAccount) {
     (this.premiumAccount = premiumAccount);
 }
 
+//Argumentos
 function imprimir() {
   console.log(arguments);
 }
